@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/vinayGowda173/mavenmigration.git'
+                git branch: 'master', url: 'https://github.com/VinayLR15/maven-gradle.git'
             }
         }
 
